@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: lightslategray;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    border-style: ridge;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: 100px;
+    background-color: white;
+  }
+  
+  .button-container {
+    margin-bottom: 10px;
+    color: lightslategray;
+  }
+  
+  input {
+    border: transparent;
+    outline: none;
+  }
+  
+  input::placeholder {
+     font-size: 20px; 
+  }
+  
+  .input-div {
+    display: flex;
+    background-color: white;
+  }
+
+  button{
+    border-radius: 8px;
+  }
+
+  #job{
+    color: lightskyblue;
+    font-style: initial;
+    font-size: 20px;
+  }
